@@ -9,15 +9,26 @@
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 	<meta charset="UTF-8">
 	<meta name="description" content="Explorez le monde captivant de la photographie avec Nina Carducci. Découvrez un portfolio diversifié, des services de photographie professionnelle et bien plus encore. Contactez-nous dès aujourd'hui pour immortaliser vos moments précieux.">
-	<script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
+	<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
 	<script src="./assets/maugallery.min.js" defer></script>
 	<script src="./assets/scripts.js" defer></script>
 	<title>Nina Carducci</title>
+	<meta name="twitter:card" content="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.fr%2Fehenriot4290%2Fdessin-appareil-photo%2F&psig=AOvVaw3wti85UeAROkpfyRbUU003&ust=1693925484653000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCJCdv6eakYEDFQAAAAAdAAAAABAG">
+	<meta name="twitter:site" content="@NinaCarducci">
+	<meta name="twitter:title" content="Nina Photo">
+	<meta name="twitter:description" content="Explorez le monde captivant de la photographie avec Nina Carducci. Découvrez un portfolio diversifié, des services de photographie professionnelle et bien plus encore.">
+	<meta name="twitter:image" content="https://image.coolblue.be/624x351/content/2df159f49b1a2a65ac00e5b7f7e9cc79">
+
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://nina-carducci.000webhostapp.com/">
+	<meta property="og:title" content="Nina photo">
+	<meta property="og:description" content="Explorez le monde captivant de la photographie avec Nina Carducci. Découvrez un portfolio diversifié, des services de photographie professionnelle et bien plus encore.">
+	<meta property="og:image" content="https://image.coolblue.be/624x351/content/2df159f49b1a2a65ac00e5b7f7e9cc79">
 	<script type="application/ld+json">
 		{
 			"@context": "https://schema.org",
-			"@type": "Photographe",
+			"@type": "LocalBusiness",
 			"image": [
 			"https://image.coolblue.be/624x351/content/2df159f49b1a2a65ac00e5b7f7e9cc79",
 			"https://image.coolblue.be/624x351/content/2df159f49b1a2a65ac00e5b7f7e9cc79"
@@ -52,26 +63,14 @@
 				"opens": "10:00",
 				"closes": "19:00"
 			}
-			],
-			"acceptsReservations": "True"
+			]
 		}
 	</script>
-	<meta name="twitter:card" content="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.fr%2Fehenriot4290%2Fdessin-appareil-photo%2F&psig=AOvVaw3wti85UeAROkpfyRbUU003&ust=1693925484653000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCJCdv6eakYEDFQAAAAAdAAAAABAG">
-	<meta name="twitter:site" content="@NinaCarducci">
-	<meta name="twitter:title" content="Nina Photo">
-	<meta name="twitter:description" content="Explorez le monde captivant de la photographie avec Nina Carducci. Découvrez un portfolio diversifié, des services de photographie professionnelle et bien plus encore.">
-	<meta name="twitter:image" content="https://image.coolblue.be/624x351/content/2df159f49b1a2a65ac00e5b7f7e9cc79">
-
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://nina-carducci.000webhostapp.com/">
-	<meta property="og:title" content="Nina photo">
-	<meta property="og:description" content="Explorez le monde captivant de la photographie avec Nina Carducci. Découvrez un portfolio diversifié, des services de photographie professionnelle et bien plus encore.">
-	<meta property="og:image" content="https://image.coolblue.be/624x351/content/2df159f49b1a2a65ac00e5b7f7e9cc79">
 </head>
 <body>
 	<div class="top-header" role="banner">
 		<h3 class="name">Nina Carducci</h3>
-		<div class="nav" role="navigation">   
+		<div class="nav" role="menu">   
 			<ul>
 				<li><a href="#about" role="menuitem">À propos</a></li>
 				<li><a href="#gallery" role="menuitem">Galerie</a></li>
@@ -88,7 +87,7 @@
 				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
 				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
 			</div>
-			<div class="carousel-inner" role="listbox">
+			<div class="carousel-inner">
 				<div class="carousel-item active">
 					<img  class="d-block w-100 a" alt="error">
 				</div>
@@ -111,7 +110,7 @@
 	</div>
 	<div id="about" role="main">
 		<div class="picture left">
-			<img>
+			<img src="./assets/images/nina/nina.webp" alt="error">
 		</div>
 		<div id="about-me">
 			<h3 class="about-me__title">A propos de moi</h3>
@@ -123,7 +122,7 @@
 	<div id="gallery" role="main">
 		<h3 class="title">Portfolio</h3>
 		<div class="container py-3">
-			<div class="gallery" style="display: none" role="list">
+			<div class="gallery" style="display: none">
 				<img data-gallery-tag="Concert" alt="error" class="gallery-item a"/>
 				<img data-gallery-tag="Entreprises" alt="error" class="gallery-item b"/>
 				<img data-gallery-tag="Entreprises" alt="error" class="gallery-item c"/>
@@ -194,8 +193,8 @@
 			<h1>Une question ? Une demande de devis ?</h1>
 			<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
 			<form action="" method="post">
-				<label for="name">Nom</label>
-				<input type="text" name="nom" id="nom">
+				<label for="nom">Nom</label>
+				<input type="text" name="name" id="nom">
 				<label for="email">Email</label>
 				<input type="email" name="email" id="email">
 				<label for="message">Message</label>
