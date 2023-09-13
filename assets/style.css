@@ -51,7 +51,7 @@ body {
 }
 
 .picture.left::before {
-	content: ' ';
+	/* content: ' '; */
 	background-color: #E5975F;
 	width: 374px;
 	height: 329px;
@@ -254,9 +254,9 @@ input[type="submit"] {
 	.carousel-item:nth-child(3) img {
 		content: url('./images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp');
 	}
-	.left img {
-		content: url('./images/nina/nina.webp');
-	}
+	/* .left img {
+		content: url('./images/nina/nina-small.webp');
+	} */
 
 	.right img {
 		content: url('./images/camera/camera.webp');
@@ -304,9 +304,9 @@ input[type="submit"] {
 	  .carousel-item:nth-child(3) img {
 		content: url('./images/slider/1180/edward-cisneros-3_h6-1NPDGw-unsplash-large.webp');
 	  }
-	  .left img {
-		content: url('./images/nina/nina-large.webp');
-	  }
+	  /* .left img {
+		content: url('./images/nina/nina-small.webp');
+	  } */
 	  .right img {
 		content: url('./images/camera/1180/camera-large.webp');
 	}

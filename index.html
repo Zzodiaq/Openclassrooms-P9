@@ -3,7 +3,7 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
-	<link rel="stylesheet" href="./assets/style.min.css">
+	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
@@ -108,8 +108,11 @@
 			</button>
 		</div>
 	</div>
-	<div id="about" role="main">
+	<div id="about">
 		<div class="picture left">
+			<source media="(max-width: 1180px)" srcset="./assets/images/nina/nina-large.webp">
+			<source media="(max-width: 1000px)" srcset="image-1000px.jpg">
+			<source media="(max-width: 650px)" srcset="image-650px.jpg">
 			<img src="./assets/images/nina/nina.webp" alt="error">
 		</div>
 		<div id="about-me">
@@ -119,7 +122,7 @@
 				C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 		</div>
 	</div>
-	<div id="gallery" role="main">
+	<div id="gallery">
 		<h3 class="title">Portfolio</h3>
 		<div class="container py-3">
 			<div class="gallery" style="display: none">
@@ -143,7 +146,7 @@
 			</figure>
 		</div>
 	</div>
-	<div id="services" role="main">
+	<div id="services">
 		<h1 class="title">Mes services</h1>
 		<div class="container">
 			<div class="service">
